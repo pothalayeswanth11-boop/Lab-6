@@ -1,0 +1,90 @@
+.skeleton-card {
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    width: 280px;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+.skeleton-img {
+    height: 200px;
+    width: 100%;
+    background-color: #e2e8f0;
+}
+
+.skeleton-info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.skeleton-title {
+    height: 20px;
+    background-color: #e2e8f0;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    width: 80%;
+}
+
+.skeleton-price {
+    height: 24px;
+    background-color: #e2e8f0;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    width: 40%;
+}
+
+.skeleton-desc {
+    height: 14px;
+    background-color: #e2e8f0;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.skeleton-desc.short {
+    width: 60%;
+    margin-bottom: 24px;
+}
+
+.skeleton-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.skeleton-badge {
+    height: 16px;
+    background-color: #e2e8f0;
+    border-radius: 4px;
+    width: 30%;
+}
+
+.skeleton-badge.alt {
+    width: 25%;
+}
+
+.skeleton-btn {
+    height: 48px;
+    background-color: #e2e8f0;
+    width: 100%;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
